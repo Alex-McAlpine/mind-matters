@@ -5,7 +5,7 @@
 :root {
     --primary-font: "Funnel Sans", sans-serif;
     --secondary-font: "Funnel Display", sans-serif;
-    --primary-color:  #03465dff;
+    --primary-color: #03465dff;
     --secondary-color: #bedde7ff;
     --highlight-color: #76b4caff;
     --highlight-color-light: #0c0c11ff;
@@ -13,6 +13,7 @@
 }
 
 /* Custom navbar styles */
+
 .navbar {
     background-color: var(--secondary-color);
 }
@@ -47,3 +48,32 @@ h1 {
     color: var(--primary-color)
 }
 
+
+
+/* Media Queries for L + XL screens */
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .container {
+        max-width: 1140px;
+    }
+
+    section,
+    header,
+    footer {
+        padding: 4rem 2rem;
+    }
+}
