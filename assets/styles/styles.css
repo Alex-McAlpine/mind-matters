@@ -5,14 +5,21 @@
 :root {
     --primary-font: "Funnel Sans", sans-serif;
     --secondary-font: "Funnel Display", sans-serif;
+    --primary-color:  #03465dff;
+    --secondary-color: #bedde7ff;
+    --highlight-color: #76b4caff;
+    --highlight-color-light: #0c0c11ff;
+
 }
 
 /* Global Styles */
 
 body {
     font-family: var(--primary-font);
+    color: var(--highlight-color)
 }
 
 h1 {
     font-family: var(--secondary-font);
+    color: var(--primary-color)
 }
