@@ -49,6 +49,23 @@ h1
     color: var(--primary-color);
 }
 
+/*-- Header Styles --*/
+
+header {
+  font-family: var(--primary-font);
+  background-color: var(--primary-color); /* fallback background */
+  color: var(--secondary-color);
+}
+
+/* Carousel image styling */
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+  display: block;
+  width: 100%;
+}
+
+
 /*-- Footer Styles --*/
 
 .custom-footer {
