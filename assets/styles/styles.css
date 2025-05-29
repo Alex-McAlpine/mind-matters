@@ -73,12 +73,15 @@ header {
     color: var(--highlight-color);
 }
 
+/*-- Section Styles --*/
 
+#signs {
+    background-color: var(--primary-color);
+    color: var(--highlight-color);
+    font-family: var(--primary-font);
+}
 
 /*-- Footer Styles --*/
-
-
-
 .custom-footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
