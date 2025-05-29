@@ -55,6 +55,8 @@ header {
   font-family: var(--primary-font);
   background-color: var(--primary-color); /* fallback background */
   color: var(--secondary-color);
+  margin-top: 1.5rem;
+  padding: 2rem 1rem;
 }
 
 /* Carousel image styling */
@@ -72,6 +74,8 @@ header {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   font-family: var(--primary-font);
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
 }
 
 .custom-footer h4 {
