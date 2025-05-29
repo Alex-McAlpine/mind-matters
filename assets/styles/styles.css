@@ -43,8 +43,7 @@ body {
     color: var(--highlight-color)
 }
 
-h1
- {
+h1 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
@@ -52,34 +51,43 @@ h1
 /*-- Header Styles --*/
 
 header {
-  font-family: var(--primary-font);
-  background-color: var(--primary-color); /* fallback background */
-  color: var(--secondary-color);
-  margin-top: 1.5rem;
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+    /* fallback background */
+    color: var(--secondary-color);
 }
 
 /* Carousel image styling */
 .carousel-item img {
-  height: 450px;
-  object-fit: cover;
-  display: block;
-  width: 100%;
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
 }
+
+.carousel-caption {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-family: var(--secondary-font);
+    color: var(--highlight-color);
+}
+
 
 
 /*-- Footer Styles --*/
 
 .custom-footer {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  font-family: var(--primary-font);
-  padding-top: 3rem;
-  padding-bottom: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .custom-footer h4 {
-  font-family: var(--secondary-font);
-  color: var(--highlight-color);
+    font-family: var(--secondary-font);
+    color: var(--highlight-color);
 }
 
 
