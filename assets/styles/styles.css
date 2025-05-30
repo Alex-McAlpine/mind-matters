@@ -73,6 +73,19 @@ header {
     color: var(--highlight-color);
 }
 
+
+.carousel-caption h5 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.carousel-caption p {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+
 /*-- Section Styles --*/
 
 #signs {
