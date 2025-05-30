@@ -99,8 +99,8 @@ header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: var(--primary-font);
-    padding-top: 3rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .custom-footer h4 {
