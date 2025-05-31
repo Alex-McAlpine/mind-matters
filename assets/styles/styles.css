@@ -90,6 +90,11 @@ header {
 
 /*-- Section Styles --*/
 
+.card-text,
+.card-title {
+    text-align: center;
+}
+
 #signs {
     background-color: var(--primary-color);
     color: var(--highlight-color);
@@ -101,6 +106,8 @@ header {
     padding-top: 1rem;
     padding-bottom: 1.5rem;
 }
+
+
 
 
 /*-- Footer Styles --*/
