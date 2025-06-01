@@ -22,8 +22,12 @@
     font-family: var(--primary-font);
     color: var(--primary-color);
     font-size: 1.5rem;
-    font-weight: bold;
+    
 }
+
+.nav-item {
+    font-weight: 900;
+    }
 
 .nav-link {
     font-family: var(--secondary-font);
@@ -40,7 +44,7 @@
 
 body {
     font-family: var(--primary-font);
-    color: var(--highlight-color)
+    color: var(--primary-color)
 }
 
 h1 {
@@ -69,7 +73,9 @@ header {
     position: absolute;
     top: 30%;
     font-family: var(--secondary-font);
-    color: var(--highlight-color);
+    color: var(--secondary-color);
+    background-color: rgba(12, 12, 17, 0.5);
+    bottom: auto;
 }
 
 
@@ -80,7 +86,8 @@ header {
 
 .carousel-caption p {
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: var(--secondary-color)
 }
 
 
@@ -122,7 +129,7 @@ header {
 
 #signs {
     background-color: var(--primary-color);
-    color: var(--highlight-color);
+    color: var(--secondary-color);
     font-family: var(--primary-font);
 }
 
@@ -140,6 +147,7 @@ header {
 }
 
 #emergency-help {
+    color: var(--secondary-color);
     background-color: var(--primary-color);
     padding-top: 1rem;
     padding-bottom: 1.5rem;
