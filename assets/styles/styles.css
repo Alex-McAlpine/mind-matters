@@ -126,9 +126,17 @@ header {
     font-family: var(--primary-font);
 }
 
+#methods {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    justify-content: center;
+    text-align: center;;
+}
+
 #what-can-you-do {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    
 }
 
 #emergency-help {
