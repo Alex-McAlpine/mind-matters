@@ -31,13 +31,13 @@
 
 .nav-link {
     font-family: var(--secondary-font);
-    color: var(--highlight-color);
+    color: var(--primary-color);
     text-transform: uppercase;
     transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: var(--highlight-color-light);
+    color: var(--highlight-color);
 }
 
 /* Global Styles */
